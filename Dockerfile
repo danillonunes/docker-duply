@@ -5,7 +5,9 @@ MAINTAINER Kurt Huwig
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     duply \
     ncftp \
+    python3-pip \
     pwgen \
+    && pip install boto \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
 ENV HOME /root
