@@ -1,7 +1,7 @@
 Supported tags and respective `Dockerfile` links
 ================================================
 
- - [`latest` (*latest/Dockerfile*)](https://github.com/kurthuwig/docker-duply/blob/master/Dockerfile)
+ - [`latest` (*latest/Dockerfile*)](https://github.com/danillonunes/docker-duply/blob/master/Dockerfile)
 
 What is duply?
 ==============
